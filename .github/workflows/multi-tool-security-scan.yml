@@ -30,7 +30,7 @@ jobs:
         uses: tj-actions/bandit@v3
         with:
           targets: "./"
-          options: "--severity-level high"
+          options: "--severity-level HIGH"
 
       - name: Install Trivy
         run: |
