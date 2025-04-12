@@ -29,7 +29,7 @@ jobs:
       - name: Bandit (Python Static Analysis)
         uses: tj-actions/bandit@v3
         with:
-          path: "./"
+          targets: "./"
           options: "--severity-level high"
 
       - name: Install Trivy
