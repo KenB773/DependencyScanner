@@ -1,4 +1,4 @@
-name: Multi-Tool Security Scan
+name: Multi-Tool Security Scan # OWASP Dependency Check, Bandit, Trivy
 
 on:
   push:
