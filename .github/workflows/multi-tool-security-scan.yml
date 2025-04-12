@@ -16,7 +16,7 @@ jobs:
         uses: dependency-check/Dependency-Check_Action@main
         with:
           project: "My Secure App"
-          scanPath: "."
+          path: "."
           format: "HTML"
           out: "reports"
 
@@ -30,7 +30,7 @@ jobs:
         uses: tj-actions/bandit@v3
         with:
           path: "./"
-          severity-level: "high"
+          options: "--severity-level high"
 
       - name: Install Trivy
         run: |
