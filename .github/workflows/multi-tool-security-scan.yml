@@ -26,11 +26,10 @@ jobs:
           name: dep-check-report
           path: reports/
 
-      - name: Bandit (Python Static Analysis)
-        uses: tj-actions/bandit@v3
-        with:
-          targets: "./"
-          options: "--severity-level HIGH"
+      - name: Run Bandit (SARIF)
+        run: |
+          pip install bandit
+          bandit -r . -f sarif -o bandit-results.sarif --confidence-level HIGH
 
       - name: Install Trivy
         run: |
