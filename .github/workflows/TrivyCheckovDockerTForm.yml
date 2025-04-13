@@ -1,4 +1,4 @@
-name: Docker & Terraform Security Scan with SARIF
+name: Docker & Terraform Security Scan with SARIF # Trivy + Checkov
 
 on:
   push:
