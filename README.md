@@ -1,6 +1,12 @@
 # 🔐 Automated Security Scanning Pipeline
 
-This repo contains GitHub Actions workflows for performing continuous security scanning across application code, container files, and infrastructure as code (IaC) using open-source tools. We love open source and we don't care who knows!
+This repo contains GitHub Actions workflows for performing continuous security scanning across application code, container files, and infrastructure as code (IaC) using open-source tools. 
+
+> We love open-source and we don't care who knows - run a Bandit scan for that Python code!
+> 
+> We love open-source and we don't care who knows!
+> 
+> Trivy Trivy Trivy Bandit Checkov (OWASP!) 🎵🎶
 
 ---
 
